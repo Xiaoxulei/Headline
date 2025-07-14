@@ -2,6 +2,7 @@ package org.example.service;
 
 import org.example.pojo.Type;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.example.utils.Result;
 
 /**
 * @author xuxiaolei
@@ -10,4 +11,5 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface TypeService extends IService<Type> {
 
+    Result findAllTypes();
 }

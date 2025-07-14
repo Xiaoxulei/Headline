@@ -2,6 +2,8 @@ package org.example.service;
 
 import org.example.pojo.Headline;
 import com.baomidou.mybatisplus.extension.service.IService;
+import org.example.utils.Result;
+import org.example.vo.PortalVo;
 
 /**
 * @author xuxiaolei
@@ -10,4 +12,7 @@ import com.baomidou.mybatisplus.extension.service.IService;
 */
 public interface HeadlineService extends IService<Headline> {
 
+    Result findNewsPage(PortalVo portalVo);
+
+    Result showHeadlinDetail(Integer hid);
 }
