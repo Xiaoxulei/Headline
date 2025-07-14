@@ -37,11 +37,9 @@ public class HeadlineServiceImpl extends ServiceImpl<HeadlineMapper, Headline>
         data.put("pageData",records);
         data.put("pageNum",page.getCurrent());
         data.put("pageSize",page.getSize());
-        data.put("totalPage",page.getTotal());
-
+        data.put("totalSize",page.getTotal());
         Map pageInfo = new HashMap();
         pageInfo.put("pageInfo",data);
-
         return Result.ok(pageInfo);
     }
 
