@@ -6,3 +6,63 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+# ========== Java 编译相关 ==========
+/target/
+*.class
+*.jar
+*.war
+*.ear
+
+# ========== 日志文件 ==========
+*.log
+
+# ========== 临时文件 ==========
+*.tmp
+*.swp
+*.bak
+*.swo
+*~
+
+# ========== 操作系统相关 ==========
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+__MACOSX/
+
+# ========== IntelliJ IDEA ==========
+.idea/
+*.iml
+*.iws
+out/
+
+# ========== VS Code ==========
+.vscode/
+
+# ========== Maven ==========
+.mvn/
+!/.mvn/wrapper/maven-wrapper.jar
+.settings/
+dependency-reduced-pom.xml
+release.properties
+
+# ========== Lombok ==========
+*.lombok.log
+
+# ========== JUnit 测试报告 ==========
+*.exec
+jacoco.exec
+
+# ========== 环境配置 ==========
+.env
+*.local.properties
+application-dev.yml
+application-test.yml
+
+# ========== 其他 IDE ==========
+*.classpath
+*.project
+*.settings/
+
+# ========== Git 忽略临时 Merge ==========
+*.orig
